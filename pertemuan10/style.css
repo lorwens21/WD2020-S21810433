@@ -1,0 +1,39 @@
+/* 
+* {
+    background-color: rgb(218, 218, 218);
+}
+
+body {
+    background-color: rgb(218, 218, 218);
+}
+div {
+    background-color: pink;
+}
+p {
+    background-color: rgb(161, 255, 20); 
+}
+.eror {
+    color: crimson;
+}
+p.success.feedback {
+    color: blue;
+    border: 2px solid black;
+}
+#container {
+    background-color: rgb(233, 13, 49);
+} */
+
+div p{
+    background-color: yellow;
+}
+#container > p span{
+    font-weight: bold;
+}
+a[href="www.google.com"] {
+    font-weight: bold;
+    font-size: 20px;
+    color: red; 
+}
+a:hover {
+    color: green;
+}

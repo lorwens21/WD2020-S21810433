@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Design Class">
+    <meta name="author" content="HTML, CSS, XML, JavaScript">
+    <meta name="author" content="John Dee">
+    <title>HTML Tag untuk Tabel</title>
+</head>
+<body>
+        <header>
+            <h1>HTML tag untuk Tabel & Form</h1>
+        </header>
+        <section>
+            <div>
+                <h1>Tabel</h1>
+            </div>
+        <table cellspacing="10">
+            <thead>
+            <tr>
+                <th>Nama</th>
+                <th>No Telp</th>
+                <th>Fakultas</th>
+             </tr>
+            </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>0811231234</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>Mike Miller</td>
+                <td>0811322143</td>
+                <td>Business</td>
+            </tr>
+           </tbody>
+        </table>
+        <hr>
+        <h1>Form</h1>
+        <form action="/pertemuan6/index.html">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="username" required>
+            <br /><br />
+            <label for="email"Email>Email:</label>
+            <input type="email" id="email" placeholder="email" required>
+            <br /><br />
+            <label for="password"Password>Password:</label>
+            <input type="password" id="password" placeholder="password" required>
+            <br /><br />
+            <label for="gender">Jenis Kelamin</label>
+            <input type="radio" name="gender" id="gender" value="Laki-laki"> Laki-laki
+            <input type="radio" name="gender" id="gender" value="Perempuan"> Perempuan
+            <br />
+            <br />
+            <label for="skill"Bahasa pemograman yang dikuasai :></label>
+            <input type="checkbox" name="skill id="skill" />HTML
+            <input type="checkbox" name="skill id="skill" />CSS
+            <input type="checkbox" name="skill id="skill" />JavaScript
+            <br />
+            <br />
+            <label for="daerah-asal">Daerah asal :</label>
+            <select id="daerah-asal">
+                <option value="manado">Manado</option>
+                <option value="minahasa-utara">Minahasa Utara</option>
+                <option value="minahasa">Minahasa</option>
+            </select>
+            <br />
+            <br />
+            <label for="pesan" placeholder="Tulis pesan anda disini">Pesan Anda</label>
+            <br />
+           <textarea  cols="50" rows="10" placeholder="Tulis komentar anda disini..."></textarea>
+           <br />
+           <button>Submit</button>
+        </section>
+    </form>
+</body>
+</html>

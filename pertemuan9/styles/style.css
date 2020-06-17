@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(199, 177, 177);
+}
+h1 {
+    color: green;
+    font-size: 50px;
+}
+p {
+    color: rgb(235, 141, 141);
+}
+li {
+    color: #53eb53;
+    font-size: 20px;
+}
+.paragraph-color {
+    color: rgb(182, 36, 182);
+}
