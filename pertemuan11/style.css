@@ -1,0 +1,21 @@
+
+#smile > img {
+    display: grid;
+    background-color: lightblue;
+    padding: 20px;
+    border: 15px solid red;
+}
+#laugh > img {
+    display: grid;
+    background-color: lightblue;
+    padding: 20px;
+    border: 15px solid red;
+    margin-left: 190px;
+}
+#love > img {
+    display: grid;
+    background-color: lightblue;
+    padding: 20px;
+    border: 15px solid red;
+    margin-left: 380px;
+}
